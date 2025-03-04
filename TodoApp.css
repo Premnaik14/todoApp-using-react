@@ -1,0 +1,43 @@
+.todo-container{
+ width: 300px;
+ margin:auto;
+ text-align: center;
+}
+
+.input-section{
+    display:flex;
+    justify-content: center;
+    gap:5px;
+}
+
+button {
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  li{
+    display:flex;
+    align-items: center;
+    padding:8px;
+    margin-top: 5px;
+    background:#f3f3f3;
+    border-radius: 5px;
+    justify-content:space-between
+  }
+
+  .edit{
+    background-color: green;
+    color:white;
+    padding:4px;
+  }
+.delete{
+    background-color: red;
+    color:white;
+    padding:4px;
+}
